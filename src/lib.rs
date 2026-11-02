@@ -60,10 +60,7 @@ enum Node {
 }
 
 /// The precomputed nodes and symbol codes for the built-in Huffman tree.
-///
-/// This type is public for historical reasons; codec operations use the crate's
-/// static instance and do not require callers to construct or access one.
-pub struct CodecData {
+struct CodecData {
     nodes: [Node; NODE_COUNT],
     codes: [(u16, u8); LEAF_COUNT],
 }
