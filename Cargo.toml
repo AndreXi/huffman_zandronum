@@ -1,0 +1,9 @@
+[package]
+name = "huffman_zandronum"
+version = "0.1.0"
+edition = "2024"
+description = "Huffman codec compatible with the Zandronum net protocol"
+readme = "README.md"
+documentation = "https://docs.rs/huffman_zandronum"
+keywords = ["huffman", "compression", "zandronum"]
+categories = ["compression"]
