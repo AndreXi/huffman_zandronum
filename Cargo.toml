@@ -8,4 +8,4 @@ documentation = "https://docs.rs/huffman_zandronum"
 repository = "https://github.com/AndreXi/huffman_zandronum"
 keywords = ["huffman", "compression", "zandronum"]
 categories = ["compression"]
-license-file = "LICENSE"
+license = "MIT"
